@@ -1,0 +1,6 @@
+Use language primitives over functions: like `for (const object of array)` over `array.forEach()`.
+Avoid `let` and never use `var`.
+Keep code simple and ideally reusable, but do not make everything a reusable function.
+Always use `.map()` over creating a new array and manually pushing elements one for one.
+When making a PR, make a branch describing the feature in a few words like `simple-feature-name` then make a single commit called `\`folder1/folder/file.md\`: edit file` or  `\`folder1/folder/*\`: edit files` then run `gh pr create --fill`.
+Run `npm run format` after changes.
